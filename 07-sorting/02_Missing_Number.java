@@ -5,7 +5,7 @@
 class MissingNumber {
     public static void main(String[] args) {
         int[] nums = {3, 0, 1};
-        System.out.println("Result (Cyclic): " + missingNumberCyclic(nums));        
+        System.out.println("Result (Cyclic): " + missingNumberCyclic(nums));  
     }
 
     // --- APPROACH 1: BUBBLE SORT ---
@@ -38,6 +38,15 @@ class MissingNumber {
             }
         }
         return nums.length;
+    }
+
+    // --- APPROACH 3: Bitwise operator ---
+    public static int missingNumberXOR(int[] nums) {
+        int xor = nums.length;
+        for(int i = 0; i < nums.length; i++) {
+            xor = xor ^ i ^ nums[i];
+        }
+        return xor;
     }
 
     // Helper method for Cyclic Sort
