@@ -12,7 +12,7 @@ class SortColors {
 
         System.out.println(Arrays.toString(nums));
     }
-
+ 
     public static void sortColors(int[] nums) {
         int swappingIndex = 0;
         for(int i = 0; i <= 2; i++) {
