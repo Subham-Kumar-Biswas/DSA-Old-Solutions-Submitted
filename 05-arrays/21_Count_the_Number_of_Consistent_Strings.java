@@ -2,7 +2,7 @@
 // Input: allowed = "ab", words = ["ad","bd","aaab","baa","badab"]
 // Output: 2
 
-class Solution {
+class CountConsistentStrings {
     public static void main(String[] args) {
         String allowed = "ab";
         String[] words = {"ad","bd","aaab","baa","badab"};
