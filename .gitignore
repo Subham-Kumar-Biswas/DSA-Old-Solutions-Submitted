@@ -4,9 +4,5 @@
 *.iml
 out/
 
-# Ignore JVM crash logs
-hs_err_pid*.log
-replay_pid*.log
-
 # General wildcard to ignore any log files
 *.log
