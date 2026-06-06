@@ -4,7 +4,7 @@
 
 import java.util.Arrays;
 
-class Solution {
+class LeftRightDifference {
     public static void main(String[] args) {
         int[] nums = {10,4,8,3};
         System.out.println(Arrays.toString(leftRightDifference(nums)));
