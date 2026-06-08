@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-class Solution {
+class CountPairs {
     public static void main(String[] args) {
         List<Integer> nums = new ArrayList<>(Arrays.asList(-1,1,2,3,1));
         System.out.println(countPairs(nums, 0));
