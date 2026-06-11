@@ -2,7 +2,7 @@
 // Input: word1 = ["ab", "c"], word2 = ["a", "bc"]
 // Output: true
 
-class Solution {
+class ArrayStringsAreEqual {
     public static void main(String[] args) {
         String[] word1 = {"ab", "c"};
         String[] word2 = {"a", "bc"};
