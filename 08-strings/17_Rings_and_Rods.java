@@ -2,7 +2,7 @@
 // Input: rings = "B0B6G0R6R0R6G9"
 // Output: 1
 
-class Solution {
+class CountPoints {
     public static void main(String[] args) {
         String rings = "B0B6G0R6R0R6G9";
         System.out.println(countPoints(rings));
