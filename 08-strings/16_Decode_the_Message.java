@@ -2,7 +2,7 @@
 // Input: key = "the quick brown fox jumps over the lazy dog", message = "vkbs bs t suepuv"
 // Output: "this is a secret"
 
-class Solution {
+class DecodedMessage {
     public static void main(String[] args) {
         String key = "the quick brown fox jumps over the lazy dog";
         String message = "vkbs bs t suepuv";

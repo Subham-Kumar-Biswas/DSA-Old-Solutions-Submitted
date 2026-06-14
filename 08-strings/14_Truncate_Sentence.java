@@ -2,7 +2,7 @@
 // Input: s = "Hello how are you Contestant", k = 4
 // Output: "Hello how are you"
 
-class Solution {
+class TruncateSentence {
     public static void main(String[] args) {
         String s = "Hello how are you Contestant";
         int k = 4;

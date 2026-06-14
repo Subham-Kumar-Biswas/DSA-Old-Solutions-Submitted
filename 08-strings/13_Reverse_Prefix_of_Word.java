@@ -2,7 +2,7 @@
 // Input: word = "abcdefd", ch = "d"
 // Output: "dcbaefd"
 
-class Solution {
+class ReversePrefix {
     public static void main(String[] args) {
         String word = "abcdefd";
         char ch = 'd';
