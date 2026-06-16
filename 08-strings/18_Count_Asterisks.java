@@ -2,7 +2,7 @@
 // Input: s = "l|*e*et|c**o|*de|"
 // Output: 2
 
-class Solution {
+class CountAsterisks {
     public static void main(String[] args) {
         String s = "l|*e*et|c**o|*de|";
         System.out.println(countAsterisks(s));
