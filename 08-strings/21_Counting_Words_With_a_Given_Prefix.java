@@ -2,7 +2,7 @@
 // Input: words = ["pay","attention","practice","attend"], pref = "at"
 // Output: 2
 
-class Solution {
+class PrefixCount {
     public static void main(String[] args) {
         String[] words = {"pay","attention","practice","attend"};
         String pref = "at";
