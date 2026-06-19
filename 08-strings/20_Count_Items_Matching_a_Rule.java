@@ -5,7 +5,7 @@
 import java.util.List;
 import java.util.ArrayList;
 
-class Solution {
+class CountMatches {
     public static void main(String[] args) {
         List<List<String>> items = List.of(List.of("phone","blue","pixel"),List.of("computer","silver","lenovo"),List.of("phone","gold","iphone"));
         String ruleKey = "color";

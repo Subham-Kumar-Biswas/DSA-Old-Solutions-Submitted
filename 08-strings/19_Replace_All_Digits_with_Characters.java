@@ -2,7 +2,7 @@
 // Input: s = "a1c1e1"
 // Output: "abcdef"
 
-class Solution {
+class ReplaceDigits {
     public static void main(String[] args) {
         String s = "a1c1e1";
         System.out.println(replaceDigits(s));
