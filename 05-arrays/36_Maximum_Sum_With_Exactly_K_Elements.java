@@ -2,7 +2,7 @@
 // Input: nums = [1,2,3,4,5], k = 3
 // Output: 18
 
-class Solution {
+class MaximizeSum {
     public static void main(String[] args) {
         int[] nums = {1,2,3,4,5};
         int k = 3;
